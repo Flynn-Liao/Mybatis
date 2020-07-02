@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper nameSpace="com.lh.mapper.UserMapper">
+    <select id="getUserById" resultType="com.lh.model.User">
+        SELECT *
+          FROM qsd_user
+         WHERE id = ?
+    </select>
+</mapper>
